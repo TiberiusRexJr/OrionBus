@@ -1,0 +1,64 @@
+# Build artifacts
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.vcxproj.user
+
+# Visual Studio generated folders
+.vs/
+.vscode/
+
+# Test results and logs
+TestResult*/
+*.log
+*.tlog
+*.lastcodeanalysissucceeded
+*.cachefile
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+.nuget/
+
+# Resharper / Rider / JetBrains
+_ReSharper*/
+*.DotSettings.user
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Build reports / coverage
+*.coverage
+*.coveragexml
+*.opencover.xml
+
+# Publish output
+publish/
+dist/
+
+# Others that show up sometimes
+*.dbmdl
+*.jfm
+*.pdb
+*.db
+*.cache

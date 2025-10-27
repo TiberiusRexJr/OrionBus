@@ -1,0 +1,6 @@
+@OrionBus.CommandService_HostAddress = http://localhost:5002
+
+GET {{OrionBus.CommandService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
