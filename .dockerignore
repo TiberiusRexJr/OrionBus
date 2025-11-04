@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+**/.vs/
+**/.vscode/
+**/*.user
+**/*.csproj.user
+**/appsettings.*.json
+*.env
+.env
+.env.*
+secrets.*
+.git
+.gitignore

@@ -3,8 +3,8 @@
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
-    "AzureWebJobsServiceBus": "",
-    "ServiceBusTopic": "orders",
-    "ServiceBusSubscription": "billing-sub"
+    "BillingServiceBusConnection": "",
+    "ORDERS_TOPIC": "products-topic",
+    "BILLING_SUB": "billing-sub"
   }
 }

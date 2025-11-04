@@ -5,15 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrionBus.BillingService", "OrionBus.BillingService", "{73323D5E-CEAB-621F-FC7D-44FD282B9FD6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionBus_BillingService", "src\OrionBus.BillingService\OrionBus_BillingService.csproj", "{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionBus.CommandService", "src\OrionBus.CommandService\OrionBus.CommandService.csproj", "{256B7535-CF1F-41D0-81F5-A3B45B0943EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionBus.Contracts", "src\OrionBus.Contracts\OrionBus.Contracts.csproj", "{A31277E5-C881-4262-A979-9431DE841FBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionBus.InventoryService", "src\OrionBus.InventoryService\OrionBus.InventoryService.csproj", "{58845581-CC80-4F7F-BF50-60CFC8520027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionBus.BillingService", "src\OrionBus.BillingService\OrionBus.BillingService.csproj", "{5EB01F09-4C1E-1F24-2144-1FC7690CA886}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +23,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Debug|x64.Build.0 = Debug|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Debug|x86.Build.0 = Debug|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Release|x64.ActiveCfg = Release|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Release|x64.Build.0 = Release|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Release|x86.ActiveCfg = Release|Any CPU
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2}.Release|x86.Build.0 = Release|Any CPU
 		{256B7535-CF1F-41D0-81F5-A3B45B0943EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{256B7535-CF1F-41D0-81F5-A3B45B0943EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{256B7535-CF1F-41D0-81F5-A3B45B0943EB}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -73,15 +59,29 @@ Global
 		{58845581-CC80-4F7F-BF50-60CFC8520027}.Release|x64.Build.0 = Release|Any CPU
 		{58845581-CC80-4F7F-BF50-60CFC8520027}.Release|x86.ActiveCfg = Release|Any CPU
 		{58845581-CC80-4F7F-BF50-60CFC8520027}.Release|x86.Build.0 = Release|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Debug|x64.Build.0 = Debug|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Debug|x86.Build.0 = Debug|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Release|x64.ActiveCfg = Release|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Release|x64.Build.0 = Release|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{73323D5E-CEAB-621F-FC7D-44FD282B9FD6} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
-		{C07CAE82-7286-44B8-B81C-FBA51D6FB0E2} = {73323D5E-CEAB-621F-FC7D-44FD282B9FD6}
 		{256B7535-CF1F-41D0-81F5-A3B45B0943EB} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{A31277E5-C881-4262-A979-9431DE841FBA} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{58845581-CC80-4F7F-BF50-60CFC8520027} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{5EB01F09-4C1E-1F24-2144-1FC7690CA886} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E0E985A-1334-4B69-81B8-98D23187A569}
 	EndGlobalSection
 EndGlobal
